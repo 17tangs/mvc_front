@@ -5,7 +5,7 @@ import About from './About'
 import News from './News';
 import Disclaimer from './Disclaimer';
 import Footer from './Footer';
-import {headerInfo, shareData} from './data';
+import {headerInfo, shareData, bannerData} from './data';
 
 import './App.css';
 
@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div>
           <Header headerInfo = {headerInfo} shareData = {shareData}/>
-          <Banner />
+          <Banner bannerData = {bannerData} />
           <About />
           <News />
           <Disclaimer />

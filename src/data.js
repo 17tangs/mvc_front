@@ -43,4 +43,34 @@ const shareData = {
 }
 
 
-export {headerInfo, shareData}
+const bannerData = {
+    header: "MedVisionCloud",
+    start: {
+        ch: "进入判读系统",
+        en: "START HERE",
+    },
+    langs: [
+    {
+        name: "女性健康医视云 —— 用AI，爱自己",
+        description: "免费的在线乳腺影像判读AI 由人工智能提供参考意见",
+    },{
+        name: "Advancing Women's Healthcare with AI",
+        description: "Free Online Mammograms Interpretation using AI Suggestions for reference only",
+    },{
+        name:"Faire progresser la santé des femmes avec l'IA",
+        description: "Interprétation gratuite de mammogrammes en ligne en utilisant des suggestions d'IA pour la référence seulement",
+    },{
+        name:"Avanzando en la salud de la mujer con IA",
+        description: "Interpretación gratuita de mamografías en línea usando sugerencias de IA solo como referencia",
+    },{
+        name:"Продвижение женского здравоохранения с помощью ИИ",
+        description: "Бесплатные онлайн-маммограммы Интерпретация с использованием предложений AI для справки",
+    },{
+        name:"تعزيز الرعاية الصحية للمرأة مع منظمة العفو الدولية",
+        description: "تفسير الماموغرافيا على الانترنت مجانا باستخدام الاقتراحات الذكاء الاصطناعي للإشارة فقط",
+    }
+    ],
+}
+
+
+export {headerInfo, shareData, bannerData}
