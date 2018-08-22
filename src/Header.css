@@ -1,5 +1,5 @@
 .Header {
-    height: 64px;
+    height: var(--header-height);
     width: 100%;
     min-width:850px;
     background: #FFFFFF;
@@ -20,7 +20,7 @@
 .headerLogo img{
     height:32.8px;
     width:166.8px;
-    margin-left:30px;
+    margin-left:var(--side-margin);
 }
 .lang {
     color: #000000;
@@ -31,5 +31,5 @@
 }
 .lang:hover{
     text-decoration: underline;
-    color: rgba(0, 102, 204, 1);
+    color: var(--main-blue);
 }
