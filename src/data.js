@@ -82,7 +82,37 @@ const aboutData = {
 
 
 const newsData = {
-    title: "",
+    title: "MVC 最近新闻",
+    subtitle: "关于华建医视云的最新动态",
+    cardData: [{
+        link: "http://huajiantech.com/new.html",
+        img: require('./img/u16.jpg'),
+        content: "Dr Lotus AI 首次亮相中国卫生信息技术与健康医疗大数据应用交流大会"
+     },{
+        link: "https://mp.weixin.qq.com/s/qQNyLgV46LgN0UGOeyyk8A",
+        img: require('./img/u17.jpg'),
+        content: "体检？超声+钼靶？磁共振？乳腺检查该怎么选……"
+    }]
+ }
+
+const disclaimerData = {
+    title: "免责声明",
+    img: require('./img/bg.jpg'),
+    info: [
+        "MedVisionCloud旨在向普通用户提供一个免费的医疗影像人工智能判读的平台。根据我国法律，本平台特做如下声明:",
+        "1. 用户可自主自愿选择是否使用本平台进行医学影像智能判读。",
+        "2. 用户上传的影像资料及检测结果仅做用户自测所用, 未经用户本人同意，平台无权也不会泄露给任何一方。 ",
+        "3. 经本平台判读的结果仅作为向用户本人提供参考，结果可能因影像清晰度、用户个人操作等存在误差，故确诊仍需专业影像医生鉴定。",
+        "4. 本平台的技术提供方属于非医疗机构，不同于医院的病例会诊，诊断结果不能作为医院就诊的依据和凭证。",
+        "5. 一切诊疗行为请在就诊医院执业医师指导下执行，造成的一切后果与本平台无关。",
+        "6. 本平台由Dr Lotus AI提供技术支持，解释权归技术提供方。",
+    ]
+
 }
 
-export {headerInfo, shareData, bannerData, aboutData, newsData}
+const footerData = {
+    copyright: "Copyright©2018 MedVisionCloud",
+    message: "感谢 Dr Lotus AI 医疗影像人工智能判读引擎 提供技术支持",
+    feedback: "留言反馈",
+}
+export {headerInfo, shareData, bannerData, aboutData, newsData, disclaimerData, footerData}

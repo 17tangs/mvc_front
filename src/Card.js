@@ -5,7 +5,6 @@ import './Card.css';
 class Card extends Component{
     render(){
         let m = "";
-        console.log(this.props.cardData);
         if(this.props.pos === 'r'){
             m = "0px 0px 30px 0px";
         }

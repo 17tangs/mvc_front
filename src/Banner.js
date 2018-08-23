@@ -48,7 +48,7 @@ class Banner extends Component{
 
     render(){
         return(
-            <div style={{background: `url(${require("./img/bg1.jpeg")}) no-repeat`, backgroundSize: "100% auto"}} className="banner" >
+            <div style={{background: `url(${require("./img/bg1.jpeg")}) no-repeat`, backgroundSize: "100% 100%"}} className="banner" >
                 <p className="med1">{this.props.bannerData.header}</p>
                 <div className="medlang">
                     <div className="rw-words" style = {{pointerEvents:'none'}}>

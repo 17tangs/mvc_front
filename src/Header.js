@@ -9,7 +9,7 @@ class Header extends Component{
             <div className="Header">
                 <div className="headerLogo">
                     <a href="index.html">
-                        <img title={this.props.headerInfo.logoTitle} src={this.props.headerInfo.logo} />
+                        <img alt="Logo" title={this.props.headerInfo.logoTitle} src={this.props.headerInfo.logo} />
                     </a>
                     <a title={this.props.headerInfo.langSelectTitle} href="index.html" className="lang">{this.props.headerInfo.langSelectContent}</a>
                 </div>

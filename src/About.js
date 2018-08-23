@@ -5,6 +5,7 @@ import './About.css';
 class About extends Component{
     render(){
         return(
+          <div className = "regionFull">
             <div className="about" style = {{background:`url(${this.props.aboutData.bg})`, backgroundSize: `100% auto`, backgroundPosition:"center"}}>
                 <div className="aboutInfo">
                     <h1>{this.props.aboutData.title}</h1>
@@ -13,6 +14,7 @@ class About extends Component{
                     <p>{this.props.aboutData.description2}</p>
                 </div>
             </div>
+        </div>
         )
     }
 }

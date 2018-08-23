@@ -5,7 +5,7 @@ import About from './About'
 import NewsRegion from './NewsRegion';
 import Disclaimer from './Disclaimer';
 import Footer from './Footer';
-import {headerInfo, shareData, bannerData, aboutData, newsData} from './data';
+import {headerInfo, shareData, bannerData, aboutData, newsData, disclaimerData, footerData} from './data';
 
 import './App.css';
 
@@ -15,12 +15,10 @@ class App extends Component {
       <div>
           <Header headerInfo = {headerInfo} shareData = {shareData}/>
           <Banner bannerData = {bannerData} />
-          <div className = "regionFull">
-              <About aboutData={aboutData}/>
-          </div>
+          <About aboutData={aboutData}/>
           <NewsRegion newsData={newsData}/>
-          <Disclaimer />
-          <Footer />
+          <Disclaimer disclaimerData={disclaimerData}/>
+          <Footer footerData = {footerData} />
       </div>
     );
   }
