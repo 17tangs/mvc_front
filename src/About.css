@@ -1,6 +1,6 @@
 .about {
     width: 100%;
-    min-width: 708px;
+    min-width: 675px;
     height: 100%;
     background-size: 100% auto;
     background-position: center;
@@ -11,7 +11,7 @@
 }
 .aboutInfo {
     background-color: rgba(0, 0, 0, 0);
-    width:  50%;
+    width:  45%;
     left: 120px;
     position:relative;
     color:#777;

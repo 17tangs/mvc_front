@@ -6,7 +6,7 @@ class About extends Component{
     render(){
         return(
           <div className = "regionFull">
-            <div className="about" style = {{background:`url(${this.props.aboutData.bg})`, backgroundSize: `100% auto`, backgroundPosition:"center"}}>
+            <div className="about" style = {{background:`url(${this.props.aboutData.bg})`, backgroundSize: `auto 100%`, backgroundPosition:"center"}}>
                 <div className="aboutInfo">
                     <h1>{this.props.aboutData.title}</h1>
                     <h2>{this.props.aboutData.subtitle}</h2>

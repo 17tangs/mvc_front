@@ -73,7 +73,7 @@ const bannerData = {
 }
 
 const aboutData = {
-    bg: require('./img/aboutBG.jpg'),
+    bg: require('./img/aboutBG2.jpg'),
     title : "关于我们",
     subtitle: "MedVisionCloud——女性健康医视云",
     description1: "女性的健康，是人类社会发展的基石。MedVisionCloud致力于人工智能和医疗行业的深度融合，运用最前沿的人工智能技术，聚焦女性健康，旨在为全民提供免费的乳腺癌相关医疗影像人工智能辅助判读服务。",
@@ -86,11 +86,11 @@ const newsData = {
     subtitle: "关于华建医视云的最新动态",
     cardData: [{
         link: "http://huajiantech.com/new.html",
-        img: require('./img/u16.jpg'),
+        img: require('./img/u17.jpg'),
         content: "Dr Lotus AI 首次亮相中国卫生信息技术与健康医疗大数据应用交流大会"
      },{
         link: "https://mp.weixin.qq.com/s/qQNyLgV46LgN0UGOeyyk8A",
-        img: require('./img/u17.jpg'),
+        img: require('./img/cardBG1.jpg'),
         content: "体检？超声+钼靶？磁共振？乳腺检查该怎么选……"
     }]
  }

@@ -8,7 +8,7 @@
 }
 
 .claimInfo {
-    min-width:780px;
+    min-width:735px;
     background-color: rgba(0,0,0,0);
     width: Calc(100% - var(--side-margin));
     margin-right:30px;

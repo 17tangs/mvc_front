@@ -1,7 +1,7 @@
 .Header {
     height: var(--header-height);
     width: 100%;
-    min-width:850px;
+    min-width:735px;
     background: #FFFFFF;
     position: fixed;
     top: 0;
