@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Banner from './Banner';
 import About from './About'
-import News from './News';
+import NewsRegion from './NewsRegion';
 import Disclaimer from './Disclaimer';
 import Footer from './Footer';
-import {headerInfo, shareData, bannerData} from './data';
+import {headerInfo, shareData, bannerData, aboutData, newsData} from './data';
 
 import './App.css';
 
@@ -15,8 +15,10 @@ class App extends Component {
       <div>
           <Header headerInfo = {headerInfo} shareData = {shareData}/>
           <Banner bannerData = {bannerData} />
-          <About />
-          <News />
+          <div className = "regionFull">
+              <About aboutData={aboutData}/>
+          </div>
+          <NewsRegion newsData={newsData}/>
           <Disclaimer />
           <Footer />
       </div>

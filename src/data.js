@@ -72,5 +72,17 @@ const bannerData = {
     ],
 }
 
+const aboutData = {
+    bg: require('./img/aboutBG.jpg'),
+    title : "关于我们",
+    subtitle: "MedVisionCloud——女性健康医视云",
+    description1: "女性的健康，是人类社会发展的基石。MedVisionCloud致力于人工智能和医疗行业的深度融合，运用最前沿的人工智能技术，聚焦女性健康，旨在为全民提供免费的乳腺癌相关医疗影像人工智能辅助判读服务。",
+    description2: "MedVisionCloud由Dr Lotus AI 医疗影像人工智能判读引擎提供技术支持，帮助用户自助找到疑似病灶，同时分析患有恶性肿瘤的风险，为女性乳腺癌自测自查提供有价值的参考意见。",
+}
 
-export {headerInfo, shareData, bannerData}
+
+const newsData = {
+    title: "",
+}
+
+export {headerInfo, shareData, bannerData, aboutData, newsData}

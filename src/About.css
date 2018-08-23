@@ -1,0 +1,32 @@
+.about {
+    width: 100%;
+    min-width: 751px;
+    height: 100%;
+    background-size: 100% auto;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    position: relative;
+    float: left;
+}
+.aboutInfo {
+    background-color: rgba(0, 0, 0, 0);
+    width:  50%;
+    left: 120px;
+    position:relative;
+    color:#777;
+}
+
+.aboutInfo h1{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top:0;
+    margin-bottom: 40px;
+}
+.aboutInfo h2{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.aboutInfo p{
+    margin-bottom: 0px;
+}
