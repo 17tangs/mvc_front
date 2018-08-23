@@ -115,4 +115,19 @@ const footerData = {
     message: "感谢 Dr Lotus AI 医疗影像人工智能判读引擎 提供技术支持",
     feedback: "留言反馈",
 }
-export {headerInfo, shareData, bannerData, aboutData, newsData, disclaimerData, footerData}
+
+const wechatData = {
+    title : "分享到微信朋友圈",
+    description1: "打开微信，点击底部的“发现”,",
+    description2: "使用“扫一扫”即可将网页分享至朋友圈。",
+    img: require('./img/QR.png')
+}
+
+
+
+
+
+
+
+
+export {headerInfo, shareData, bannerData, aboutData, newsData, disclaimerData, footerData, wechatData}

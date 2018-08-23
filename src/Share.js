@@ -5,7 +5,12 @@ class Share extends Component{
     generateShares = () =>{
         let s = []
         this.props.shareData.data.forEach((share,i) => {
-            if(this.props.shareData.names.includes(share.name)){
+            if(share.name === "wechat"){
+                s.push(<a onMouseOver = {this.props.handleWechat} onMouseOut = {this.props.handleWechat} key = {i} title={share.title} id={share.name} target={share.name !== "wechat" ? "_blank" : ""}  href={share.link} style={{backgroundColor:share.color}}>
+                    <img alt="share" src={share.img}/>
+                </a>)
+            }
+            else if(this.props.shareData.names.includes(share.name)){
                 s.push(<a key = {i} title={share.title} id={share.name} target={share.name !== "wechat" ? "_blank" : ""}  href={share.link} style={{backgroundColor:share.color}}>
                     <img alt="share" src={share.img}/>
                 </a>)

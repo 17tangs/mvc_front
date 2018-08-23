@@ -1,0 +1,28 @@
+.wechatShare{
+    border: 1px solid rgb(216, 216, 216);
+    position:fixed;
+    top: 80px;
+    right: 95px;
+    width:220px;
+    height: 275px;
+    display:flex;
+    padding: 10px;
+    flex-direction: column;
+    background:#FFF;
+    align-items:center;
+    z-index:4;
+}
+.wechatShare .popup_head{
+    font-weight:700;
+    font-size:12px;
+    width:240px;
+    height:16px;
+}
+.wechatShare .popup_foot{
+    margin-top:5px;
+    width:240px;
+    height:44px;
+    font-size:12px;
+    color: rgb(102,102,102);
+
+}

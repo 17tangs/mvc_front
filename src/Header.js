@@ -13,7 +13,7 @@ class Header extends Component{
                     </a>
                     <a title={this.props.headerInfo.langSelectTitle} href="index.html" className="lang">{this.props.headerInfo.langSelectContent}</a>
                 </div>
-                <Share shareData={this.props.shareData} />
+                <Share handleWechat = {this.props.handleWechat} shareData={this.props.shareData} />
             </div>
         )
     }

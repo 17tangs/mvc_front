@@ -8,17 +8,18 @@
 }
 
 .claimInfo {
+    min-width:780px;
     background-color: rgba(0,0,0,0);
-    width: 100%;
-    top: 0px;
-    position: absolute;
+    width: Calc(100% - var(--side-margin));
+    margin-right:30px;
     height: 100%;
+    display:flex;
+    flex-direction: column;
     font-size: 12px;
 }
 
 .claimInfo h1 {
-    margin-bottom:40px;
-    max-width: 1200px;
+    margin-bottom:20px;
     margin-left:150px;
     margin-top:40px;
     font-size: 28px;
@@ -27,13 +28,11 @@
 .claimInfo h3{
     margin-top:0px;
     margin-bottom:0px;
-    max-width:1200px;
     margin-left:150px;
 }
 .claimInfo p {
+    margin-right:30px;
     margin-top:0px;
     margin-bottom:0px;
-    max-width:1200px;
     margin-left:150px;
-    width: 100%;
 }
