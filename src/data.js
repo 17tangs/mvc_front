@@ -124,10 +124,18 @@ const wechatData = {
 }
 
 
+const contactData = {
+    title: "告诉我们你的想法",
+    name1: "姓",
+    name2: "名",
+    email: "邮箱",
+    phone: "手机号码 (选填)",
+    subject: "标题",
+    content: "留言内容",
+}
 
 
 
 
 
-
-export {headerInfo, shareData, bannerData, aboutData, newsData, disclaimerData, footerData, wechatData}
+export {headerInfo, shareData, bannerData, aboutData, newsData, disclaimerData, footerData, wechatData,contactData}

@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Banner from './Banner';
 import WeChat from './WeChat.js';
-import About from './About'
+import About from './About';
+import Feedback from './Feedback';
 import NewsRegion from './NewsRegion';
 import Disclaimer from './Disclaimer';
 import Footer from './Footer';
-import {headerInfo, shareData, bannerData, aboutData, newsData, disclaimerData, footerData, wechatData} from './data';
+import {headerInfo, shareData, bannerData, aboutData, newsData, disclaimerData, footerData, wechatData, contactData} from './data';
 
 import './App.css';
 
@@ -35,6 +36,7 @@ class App extends Component {
           <NewsRegion newsData={newsData}/>
           <Disclaimer disclaimerData={disclaimerData}/>
           <Footer footerData = {footerData} />
+          <Feedback contactData={contactData}/>
       </div>
     );
   }

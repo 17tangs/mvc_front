@@ -1,20 +1,25 @@
 
 
 #share {
+    position:fixed;
     margin-right: Calc(var(--side-margin) - 6px);
-    height: var(--header-height);
     display:flex;
+    flex-direction: column;
+    right:0px;
+    top:200px;
     align-items: center;
     justify-content: flex-end;
 }
+
 #share a{
     width: 32.8px;
     height: 32.8px;
     border-radius: 32.8px;
     display: inline-block;
-    margin-left: 6px;
-    margin-right:6px;
+    margin-top: 6px;
+    margin-bottom:6px;
 }
+
 #share img {
     margin: 0 auto;
     margin-top: 10px;
