@@ -12,7 +12,6 @@ class Footer extends Component{
                         <div className="foot">
                             <div className="footline">
                                 <div className="banquan"><p>{this.props.footerData.copyright} </p><p>{this.props.footerData.message}</p></div>
-                                <span id="feedbackButton" className="message">{this.props.footerData.feedback}</span>
                             </div>
                             <div className="footline2" style={{pointerEvents:'none'}}>
                             </div>
@@ -21,7 +20,6 @@ class Footer extends Component{
                         <div className="foot">
                             <div className="footline">
                                 <span className="banquan">{this.props.footerData.copyright}</span>
-                                <span id="feedbackButton" className="message">{this.props.footerData.feedback}</span>
                             </div>
                             <div className="footline2" style={{pointerEvents:'none'}}>
                                 <p>{this.props.footerData.message}</p>

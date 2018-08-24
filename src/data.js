@@ -6,7 +6,7 @@ const headerInfo = {
 }
 
 const shareData = {
-    names:["wechat", "facebook", "weibo", "twitter", "linkedin"],
+    names:["wechat", "facebook", "weibo", "twitter", "linkedin","feedback"],
     data:[
         {
             name:"wechat",
@@ -38,8 +38,13 @@ const shareData = {
             link: "https://www.linkedin.com/shareArticle?mini=true&url=http%3A//medvisioncloud.com&title=Medvision%20Cloud&summary=&source=",
             img: require('./img/share5.png'),
             color: "#117dc2",
-        },
-    ]
+        },{
+            name:"feedback",
+            title: "留言反馈",
+            link: "#",
+            img: require('./img/share6.png'),
+            color: "#2dc100",
+        },    ]
 }
 
 

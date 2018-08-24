@@ -7,7 +7,7 @@ class Header extends Component{
     constructor(){
         super();
         this.b1 = "rgba(0, 102, 204, 1)";
-        this.b2 = "rgba(0, 153, 255, 1)";
+        this.b2 = "rgba(0,0,0,0.5)"//"rgba(0, 153, 255, 1)";
         this.state={
             hover: false,
             bgColorCh: `${this.b2}`,
