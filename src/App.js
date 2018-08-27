@@ -15,6 +15,7 @@ class App extends Component {
     constructor(){
         super();
         this.state ={
+            showFeedback: false,
             lang: ch,
             showWechat: false,
         }
@@ -31,6 +32,12 @@ class App extends Component {
             })
         }
     }
+    handleFeedback = () => {
+        console.log('clicked');
+        if(!this.state.showFeedback){
+            this.setState({showFeedback: true});
+        }
+    }
     handleWechat = (e) =>{
         if(e.type === "mouseover"){
             this.setState({showWechat: true});
@@ -42,14 +49,14 @@ class App extends Component {
   render() {
     return (
       <div>
-          <Header headerInfo = {this.state.lang.headerInfo} handleLang = {this.handleLang} handleWechat = {this.handleWechat} shareData = {this.state.lang.shareData}/>
+          <Header headerInfo = {this.state.lang.headerInfo} handleFeedback = {this.handleFeedback} handleLang = {this.handleLang} handleWechat = {this.handleWechat} shareData = {this.state.lang.shareData}/>
           <Banner bannerData = {this.state.lang.bannerData} />
           <WeChat wechatData = {this.state.lang.wechatData} show = {this.state.showWechat}/>
           <About aboutData={this.state.lang.aboutData}/>
           <NewsRegion newsData={this.state.lang.newsData}/>
           <Disclaimer disclaimerData={this.state.lang.disclaimerData}/>
           <Footer footerData = {this.state.lang.footerData} />
-          <Feedback contactData={this.state.lang.contactData}/>
+          <Feedback contactData={this.state.lang.contactData} show = {this.state.showFeedback}/>
       </div>
     );
   }

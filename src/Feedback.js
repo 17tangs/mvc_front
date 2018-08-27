@@ -17,9 +17,13 @@ class Feedback extends Component {
         // });
     }
     render(){
+        let s = "none";
+        if(this.props.show){
+            s = "block";
+        }
         let d = this.props.contactData;
         return(
-             <div className="feedback">
+             <div className="feedback" style = {{display:`${s}`}}>
                 <div className="container">
                     <div className="feedbackHeader">
                         <h3>{d.title}</h3>

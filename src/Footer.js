@@ -20,8 +20,6 @@ class Footer extends Component{
                         <div className="foot">
                             <div className="footline">
                                 <span className="banquan">{this.props.footerData.copyright}</span>
-                            </div>
-                            <div className="footline2" style={{pointerEvents:'none'}}>
                                 <p>{this.props.footerData.message}</p>
                             </div>
                         </div>

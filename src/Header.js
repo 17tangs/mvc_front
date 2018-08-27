@@ -86,7 +86,7 @@ class Header extends Component{
                         <div  style={{ color:this.state.colorEn}}>Eng</div>
                     </div>
                 </div>
-                <Share handleWechat = {this.props.handleWechat} shareData={this.props.shareData} />
+                <Share handleFeedback = {this.props.handleFeedback} handleWechat = {this.props.handleWechat} shareData={this.props.shareData} />
             </div>
         )
     }
