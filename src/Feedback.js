@@ -7,7 +7,6 @@ class Feedback extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleSubmit(event) {
-
         event.preventDefault();
         const data = new FormData(event.target);
 
