@@ -19,7 +19,7 @@ class Footer extends Component{
                     ) : (
                         <div className="foot">
                             <div className="footline">
-                                <span className="banquan">{this.props.footerData.copyright}</span>
+                                <p>{this.props.footerData.copyright}</p>
                                 <p>{this.props.footerData.message}</p>
                             </div>
                         </div>
