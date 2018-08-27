@@ -78,7 +78,7 @@ class Header extends Component{
                         <img alt="Logo" title={this.props.headerInfo.logoTitle} src={this.props.headerInfo.logo} />
                     </a>
                 </div>
-                <div className="lang"  onClick={this.handleClick} onMouseEnter={this.handleSelect} onMouseLeave={this.handleSelect}>
+                <div className="lang"  onClick={()=>{this.props.handleLang(); this.handleClick()}} onMouseEnter={this.handleSelect} onMouseLeave={this.handleSelect}>
                     <div className= "ch"  style={{backgroundColor:this.state.bgColorCh, boxShadow:`${s}`}} >
                         <div style={{ color:this.state.colorCh}} >中文</div>
                     </div>

@@ -10,6 +10,11 @@ class Share extends Component{
                     <img alt="share" sytle={{width:'100%', height:'100%'}} src={share.img}/>
                 </a>)
             }
+            else if(share.name === "feedback"){
+                s.push(<a  key = {i} title={share.title} id={share.name} target={share.name !== "wechat" ? "_blank" : ""}  href={share.link} style={{backgroundColor:share.color}}>
+                    <img alt="share" sytle={{width:'100%', height:'100%'}} src={share.img}/>
+                </a>)
+            }
             else if(this.props.shareData.names.includes(share.name)){
                 s.push(<a key = {i} title={share.title} id={share.name} target={share.name !== "wechat" ? "_blank" : ""}  href={share.link} style={{backgroundColor:share.color}}>
                     <img alt="share" sytle={{width:'100%', height:'100%'}} src={share.img}/>
