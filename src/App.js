@@ -33,9 +33,11 @@ class App extends Component {
         }
     }
     handleFeedback = () => {
-        console.log('clicked');
         if(!this.state.showFeedback){
             this.setState({showFeedback: true});
+        }
+        else{
+            this.setState({showFeedback: false});
         }
     }
     handleWechat = (e) =>{
@@ -56,7 +58,7 @@ class App extends Component {
           <NewsRegion newsData={this.state.lang.newsData}/>
           <Disclaimer disclaimerData={this.state.lang.disclaimerData}/>
           <Footer footerData = {this.state.lang.footerData} />
-          <Feedback contactData={this.state.lang.contactData} show = {this.state.showFeedback}/>
+          <Feedback contactData={this.state.lang.contactData} handleClick = {this.handleFeedback} show = {this.state.showFeedback}/>
       </div>
     );
   }

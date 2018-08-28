@@ -9,6 +9,7 @@ class Feedback extends Component {
     handleSubmit(event) {
         event.preventDefault();
         const data = new FormData(event.target);
+        console.log(data);
 
         // fetch('/api/form-submit-url', {
         //   method: 'POST',
@@ -51,8 +52,8 @@ class Feedback extends Component {
                             </fieldset>
                             <div className="buttons">
                                 <p id="messageSent" style={{padding:'10px', display:'none'}}><b>提交成功!</b></p>
-                                <div name="cancelButton" id="contact-cancel">取消</div>
-                                <button id="contact-submit">提交</button>
+                                <div name="cancelButton" onClick={this.props.handleClick} id="contact-cancel">取消</div>
+                                <button onClick = {this.handleSubmit} id="contact-submit">提交</button>
                             </div>
                         </form>
                    </div>
